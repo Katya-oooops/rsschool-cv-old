@@ -1,0 +1,47 @@
+body {
+    max-width: 1024px;
+    align-content: center;
+    margin: auto;
+    background-image: url("https://c.radikal.ru/c41/1909/22/d19247ada683.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    background-color: rgba(184, 207, 250, 0.86);
+    padding: 2% 5%;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-style: double;
+    border-color: cadetblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    background-color: rgba(184, 207, 250, 0.86);
+    padding: 5% 5%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    border-style: double;
+    border-color: cadetblue;
+}   
+
+main hr {
+    border-color: rgba(75, 128, 226, 0.575);
+    size: 2px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: rgba(32, 64, 124, 0.975)
+}
+
+img {
+    display: block;
+    width: 208;
+    height: 265;
+    float: right;
+    border: 2px solid rgba(75, 128, 226, 0.575);
+}
